@@ -1,0 +1,195 @@
+@font-face {
+  font-family: "Kurye";
+  font-weight: 100;
+  src: url("./fonts/Kurye-Thin.otf") format("truetype");
+}
+@font-face {
+  font-family: "Kurye";
+  font-weight: 300;
+  src: url("./fonts/Kurye-Light.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "Kurye";
+  font-weight: 400;
+  src: url("./fonts/Kurye-Regular.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "Kurye";
+  font-weight: 500;
+  src: url("./fonts/Kurye-Medium.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "Kurye";
+  font-weight: 600;
+  src: url("./fonts/Kurye-SemiBold.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "Kurye";
+  font-weight: 700;
+  src: url("./fonts/Kurye-Bold.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "Kurye";
+  font-weight: 900;
+  src: url("./fonts/Kurye-Black.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "Galano Grotesque";
+  font-weight: 100;
+  src: url("./fonts/GalanoGrotesqueThin.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "Galano Grotesque";
+  font-weight: 400;
+  src: url("./fonts/GalanoGrotesqueRegular.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "Galano Grotesque";
+  font-weight: 500;
+  src: url("./fonts/GalanoGrotesqueMedium.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "Galano Grotesque";
+  font-weight: 700;
+  src: url("./fonts/GalanoGrotesqueBold.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "Galano Grotesque";
+  font-weight: 900;
+  src: url("./fonts/GalanoGrotesqueBlack.otf") format("truetype");
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  font-family: "Galano Grotesque", sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  color: #0e0e0e;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+h2 {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 35px;
+  color: #0e0e0e;
+  padding: 20px 0;
+}
+h3 {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #0e0e0e;
+  padding: 30px 0;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: underline;
+  line-height: 25px;
+  color: #0e0e0e;
+  padding: 10px 0;
+}
+
+ul {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+p,
+ul > li {
+  font-size: 16px;
+  line-height: 28px;
+  color: #0e0e0e;
+  padding-bottom: 10px;
+}
+
+nav {
+  background: #fff;
+  box-shadow: 2px 2px 2px 1px rgba(153, 153, 153, 0.1);
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbarContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  z-index: 1;
+  width: 100%;
+  padding: 0 24px;
+  max-width: 1200px;
+}
+
+.bodyContainer {
+  padding: 4% 6%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.copyrightscontainer {
+  margin-top: auto;
+  padding: 20px 10px;
+  background-color: #0a0a0a;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.copyrights {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #fff;
+}
+
+@media screen and (max-width: 960px) {
+  nav {
+    transition: 0.8 all ease;
+  }
+}
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 1.8rem;
+    line-height: 1.5;
+  }
+  h2 {
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+  h3 {
+    font-size: 1.3rem;
+    line-height: 1.5;
+  }
+
+  h4 {
+    font-size: 1.1rem;
+    line-height: 1.5;
+  }
+}
